@@ -136,9 +136,6 @@ persist.debug.coresight.config=stm-events
 ##property to choose between virtual/external wfd display
 persist.sys.wfd.virtual=0
 
-# system prop for NFC DT
-ro.nfc.port=I2C
-
 #property for vendor specific library
 ro.vendor.at_library=libqti-at.so
 
