@@ -24,7 +24,7 @@
 # Device was launched with N-MR1
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-$(call inherit-product, vendor/xiaomi/jason/jason-vendor.mk)
+$(call inherit-product, vendor/xiaomi/nitrogen/nitrogen-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -286,7 +286,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint feature
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.jason
+    android.hardware.biometrics.fingerprint@2.1-service.nitrogen
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
@@ -469,7 +469,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_jason
+    librecovery_updater_nitrogen
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \

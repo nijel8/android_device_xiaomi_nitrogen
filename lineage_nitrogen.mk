@@ -18,25 +18,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from jason device
-$(call inherit-product, device/xiaomi/jason/device.mk)
+# Inherit from nitrogen device
+$(call inherit-product, device/xiaomi/nitrogen/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_jason
+PRODUCT_NAME := lineage_nitrogen
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := jason
+PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Mi Note 3
+PRODUCT_MODEL := Mi Max 3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="jason" \
-    PRODUCT_NAME="jason" \
-    PRIVATE_BUILD_DESC="jason-user 7.1.1 NMF26X V9.6.2.0.NCHMIFD release-keys"
+    TARGET_DEVICE="nitrogen" \
+    PRODUCT_NAME="nitrogen" \
+    PRIVATE_BUILD_DESC="nitrogen-user 9 PKQ1.181007.001 8.12.20 release-keys"
 
-BUILD_FINGERPRINT := "Xiaomi/jason/jason:7.1.1/NMF26X/V9.6.2.0.NCHMIFD:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/nitrogen/nitrogen:9/PKQ1.181007.001/8.12.20:user/release-keys"
 
 TARGET_VENDOR := Xiaomi

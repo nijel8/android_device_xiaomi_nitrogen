@@ -1,28 +1,25 @@
-Copyright (C) 2017 - The LineageOS Project
-
-Device configuration for Xiaomi Mi Note 3
+Device configuration for Xiaomi Mi Max 3
 ==============
 
-The Xiaomi Mi Note 3 (codenamed _"jason"_) are high-end smartphones from Xiaomi.
+For building LineageOS for Xiaomi Mi Max 3
 
-It was announced in September 2017. Release date was September 2017.
+The Mi Max 3 (codenamed _"nitrogen"_) is a high-end mid-range Phablet from Xiaomi.
 
-## Device specifications
+Xiaomi Mi Max 3 was  released in July 2018.
 
-|                  Device | Xiaomi Mi Note 3                                                         |
-|------------------------:|--------------------------------------------------------------------------|
-|                     SoC | Qualcomm SDM660 Snapdragon 660                                           |
-|                     CPU | Quad-core 2.2GHz Kryo 260 & quad-core 1.8GHz Kryo 260                    |
-|                     GPU | 850MHz Adreno 512                                                        |
-|                  Memory | 6 GB RAM (LPDDR4 1866MHz dual-channel)                                   |
-| Shipped Android version | 7.1                                                                      |
-|                 Storage | 64 GB (eMMC 5.1 Flash)                                                   |
-|                 Battery | Non-removable Li-Po 3500 mAh                                             |
-|              Dimensions | 152.6 x 73.95 x 7.6 mm                                                   |
-|                 Display | 1920 x 1080 px, 5.5 inches (403 PPI)                                     |
-|             Rear camera | Dual 12 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash |
-|            Front camera | 16 MP, 2.0 µm pixel size                                                 |
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Octa-core Qualcomm® Kryo™ 260 processor, up to 1.8GHz
+Chipset | Qualcomm SDM636 Snapdragon™ 636
+GPU     | Qualcomm® Adreno™ 509 Visual Processing  Subsystem
+Memory  | 4/6GB, Dual channel LPDDR4x
+Storage | 64/128GB, eMMC 5.1
+MicroSD | Up to 256GB
+Battery | Non-removable Li-Po 5500 mAh battery
+Display | 1080x2160 pixels, FHD+, 6.9 inches (~350 ppi pixel density)
+Camera  | Primary: AI dual camera 12MP+5MP, f/1.9, Dual Pixel Autofocus, Single-tone dual LED flash
+Camera  | Secondary: 8MP, f/2.0
 
-## Device picture
-
-![Xiaomi Mi Note 3](https://i1.mifile.cn/f/i/17/minote3/specs_black.jpg "Xiaomi Mi Note 3 in black")
+![Xiaomi Mi Max 3](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max3-1.jpg "Xiaomi Mi Max 3 - gold")
+![Xiaomi Mi Max 3](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max3-2.jpg "Xiaomi Mi Max 3 - black")
+![Xiaomi Mi Max 3](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max3-3.jpg "Xiaomi Mi Max 3 - blue")

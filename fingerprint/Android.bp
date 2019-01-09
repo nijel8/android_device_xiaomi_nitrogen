@@ -1,7 +1,7 @@
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.jason",
+    name: "android.hardware.biometrics.fingerprint@2.1-service.nitrogen",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.jason.rc"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.nitrogen.rc"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [

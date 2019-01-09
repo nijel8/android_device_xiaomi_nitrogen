@@ -197,6 +197,6 @@ Value* VerifyModemFn(const char *name, State *state, const std::vector<std::uniq
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_jason() {
-    RegisterFunction("jason.verify_modem", VerifyModemFn);
+void Register_librecovery_updater_nitrogen() {
+    RegisterFunction("nitrogen.verify_modem", VerifyModemFn);
 }

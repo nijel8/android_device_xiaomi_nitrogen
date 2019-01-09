@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jason.mk
+    $(LOCAL_DIR)/lineage_nitrogen.mk
