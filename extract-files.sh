@@ -89,7 +89,7 @@ extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 
 "$MY_DIR"/setup-makefiles.sh
 
-# DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
 # CAMERA_HAL="$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
 
@@ -97,8 +97,9 @@ extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 #     -e 's/\xe0\x6d\x01\x28\x0b\xd0/\x00\xbf\x00\xbf\x1f\xe0/' \
 #     "$CAMERA_HAL"
 
-# patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$DEVICE_BLOB_ROOT"/vendor/bin/mlipayd
-# patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$DEVICE_BLOB_ROOT"/vendor/lib64/libmlipay.so
+patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$DEVICE_BLOB_ROOT"/vendor/bin/mlipayd@1.1
+patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$DEVICE_BLOB_ROOT"/vendor/lib64/libmlipay.so
+patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$DEVICE_BLOB_ROOT"/vendor/lib64/libmlipay@1.1.so
 
 # sed -i "s|\/data\/vendor\/radio\/modem_config\/mcfg_hw\/|\/data\/vendor\/modem_config\/mcfg_hw\/\x00\x00\x00\x00\x00\x00|g" \
 #     "$DEVICE_BLOB_ROOT"/vendor/lib64/libril-qc-hal-qmi.so
